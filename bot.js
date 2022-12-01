@@ -126,7 +126,7 @@ async function Xasena() {
             console.log(
               `At : ${
                 msg.from.endsWith("@g.us")
-                  ? (await conn.groupMetadata(msg.from)).subject
+                  ?(await conn.groupMetadata(msg.from)).subject
                   : msg.from
               }\nFrom : ${msg.sender}\nMessage:${text_msg}`
             );

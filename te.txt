@@ -1,0 +1,1 @@
+https://app.koyeb.com/apps/deploy?type=docker&image=quay.io/xelectra/xasena-koyeb:latest&ports=3000;http;/&env[SESSION_ID]&env[ANTI_LINK]&env[RMBG_KEY]=&env[SUDO]=null&env[HANDLERS]=!&env[LOGS]=true&env[PACKNAME]=true&env[AUTHOR]=X-Electra&env&name=levanter-24111
